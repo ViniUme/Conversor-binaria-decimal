@@ -1,3 +1,22 @@
-binarioText{
-
+body{
+    background-color: black;
+    color: white;
+}
+input{
+    font-size: 18px;
+    text-align: right;
+}
+h1{
+    text-align: center;
+    font-family: monospace;
+    margin-top: 10%;
+}
+.caixa{
+    text-align: center;
+    margin-top: 5%;
+}
+.caixa-index{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 16px;
 }

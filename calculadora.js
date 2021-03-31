@@ -1,9 +1,2 @@
-const binario
-const decimal
-
-function binarioDecimal() {
-    
-}
-function decimalBinario(){
-    
-}
+numberDecimal = input.nextInt('#decimalText')
+document.write(numberDecimal)
