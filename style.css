@@ -5,6 +5,7 @@ body{
 input{
     font-size: 18px;
     text-align: right;
+    font-family: monospace;
 }
 h1{
     text-align: center;
