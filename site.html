@@ -10,13 +10,13 @@
 </head>
 <body>
     <script src="calculadora.js"></script>
-    <h1>CONVERSOR<br>BÍNARIO X DECIMAL X BÍNARIO</h1>
+    <h1>Bin2Dec<br>CONVERSOR BÍNARIO PARA DECIMAL</h1>
 <!--caixas onde vai ser digitado os numeros binarios e -->
     <div class="caixa">
         <label class="caixa-index binario">BÍNARIO</label><=================>
         <label class="caixa-index decimal">DECIMAL</label><br>
-        <input type="number" name="binarioText" id="binarioText"> = 
-        <input type="number" name="decimalText" id="decimalText"><br><br>
+        <input type="number" maxlength=8 id="binarioText"> = 
+        <input type="number" id="decimalText" readonly><br><br>
         <input type="button" value="Calcular" onclick="calcular()">
     </div>
 </body>
